@@ -1,8 +1,10 @@
+package paquete;
+
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 // -------------------------------------------------------------------------
 /**
- * Class to represent the Bishop piece.
+ * Class to represent the paquete.Bishop piece.
  * 
  * @author Ben Katz (bakatz)
  * @author Myles David II (davidmm2)
@@ -11,14 +13,14 @@ import javax.swing.ImageIcon;
  */
 public class Bishop extends ChessGamePiece{
 	/**
-	 * Creates a new Bishop object.
+	 * Creates a new paquete.Bishop object.
 	 * 
 	 * @param board
 	 *			board the board to create the bishop on
 	 * @param row
-	 *			row location of the Bishop
+	 *			row location of the paquete.Bishop
 	 * @param col
-	 *			col location of the Bishop
+	 *			col location of the paquete.Bishop
 	 * @param color
 	 *			either GamePiece.WHITE, BLACK, or UNASSIGNED
 	 */
@@ -39,7 +41,7 @@ public class Bishop extends ChessGamePiece{
 		ArrayList<String> northWestMoves = calculateNorthWestMoves( board, 8 );
 		ArrayList<String> southEastMoves = calculateSouthEastMoves( board, 8 );
 		ArrayList<String> southWestMoves = calculateSouthWestMoves( board, 8 );
-		ArrayList<String> allMoves = new ArrayList<String>();
+		ArrayList<String> allMoves = new ArrayList<>();
 		allMoves.addAll( northEastMoves );
 		allMoves.addAll( northWestMoves );
 		allMoves.addAll( southEastMoves );

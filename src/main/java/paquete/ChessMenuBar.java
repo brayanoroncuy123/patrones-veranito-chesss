@@ -1,3 +1,5 @@
+package paquete;
+
 import java.awt.Component;
 import java.awt.event.*;
 import javax.swing.*;
@@ -14,7 +16,7 @@ public class ChessMenuBar
     extends JMenuBar{
     // ----------------------------------------------------------
     /**
-     * Create a new ChessMenuBar object.
+     * Create a new paquete.ChessMenuBar object.
      */
     public ChessMenuBar(){
         String[] menuCategories = { "File", "Options", "Help" };
@@ -99,6 +101,7 @@ public class ChessMenuBar
             possibleFrame = possibleFrame.getParent();
         }
         JFrame frame = (JFrame)possibleFrame;
+        assert frame != null;
         frame.setVisible( false );
         frame.dispose();
     }

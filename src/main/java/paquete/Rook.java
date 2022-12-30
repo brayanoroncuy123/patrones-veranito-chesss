@@ -1,10 +1,12 @@
+package paquete;
+
 import javax.swing.ImageIcon;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 // -------------------------------------------------------------------------
 /**
- * Represents a Rook game piece.
+ * Represents a paquete.Rook game piece.
  *
  * @author Ben Katz (bakatz)
  * @author Myles David II (davidmm2)
@@ -16,7 +18,7 @@ public class Rook extends ChessGamePiece{
 	// private ArrayList<String> possibleMoves;
 	// ----------------------------------------------------------
 	/**
-	 * Create a new Rook object.
+	 * Create a new paquete.Rook object.
 	 *
 	 * @param board
 	 *            the board to create the rook on
@@ -31,7 +33,7 @@ public class Rook extends ChessGamePiece{
 		super( board, row, col, color );
 	}
 	/**
-	 * Calculates the possible moves for this Rook.
+	 * Calculates the possible moves for this paquete.Rook.
 	 * @param board the board to check on
 	 * @return ArrayList<String> the list of moves
 	 */

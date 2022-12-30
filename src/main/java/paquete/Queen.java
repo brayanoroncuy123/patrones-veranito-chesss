@@ -1,9 +1,11 @@
+package paquete;
+
 import javax.swing.ImageIcon;
 import java.util.ArrayList;
 // import java.awt.Color;
 // -------------------------------------------------------------------------
 /**
- * Represents a Queen game piece.
+ * Represents a paquete.Queen game piece.
  *
  * @author Ben Katz (bakatz)
  * @author Myles David II (davidmm2)
@@ -14,7 +16,7 @@ public class Queen
     extends ChessGamePiece{
     // ----------------------------------------------------------
     /**
-     * Create a new Queen object.
+     * Create a new paquete.Queen object.
      *
      * @param board
      *            the board the queen is on
@@ -29,7 +31,7 @@ public class Queen
         super( board, row, col, color );
     }
     /**
-     * Calculates the possible moves for this Queen.
+     * Calculates the possible moves for this paquete.Queen.
      * @param board the board to check on
      * @return ArrayList<String> the list of moves
      */

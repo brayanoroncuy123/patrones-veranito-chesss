@@ -1,3 +1,5 @@
+package paquete;
+
 import java.awt.*;
 import javax.swing.*;
 // -------------------------------------------------------------------------
@@ -19,7 +21,7 @@ public class ChessPanel
     private ChessGameEngine gameEngine;
     // ----------------------------------------------------------
     /**
-     * Create a new ChessPanel object.
+     * Create a new paquete.ChessPanel object.
      */
     public ChessPanel(){
         this.setLayout( new BorderLayout() );
@@ -40,7 +42,7 @@ public class ChessPanel
     /**
      * Gets the logger object for use in other classes.
      * 
-     * @return ChessGameLog the ChessGameLog object
+     * @return paquete.ChessGameLog the paquete.ChessGameLog object
      */
     public ChessGameLog getGameLog(){
         return gameLog;
@@ -49,7 +51,7 @@ public class ChessPanel
     /**
      * Gets the board object for use in other classes.
      * 
-     * @return ChessGameBoard the ChessGameBoard object
+     * @return paquete.ChessGameBoard the paquete.ChessGameBoard object
      */
     public ChessGameBoard getGameBoard(){
         return gameBoard;
@@ -58,7 +60,7 @@ public class ChessPanel
     /**
      * Gets the game engine object for use in other classes
      * 
-     * @return ChessGameEngine the ChessGameEngine object
+     * @return paquete.ChessGameEngine the paquete.ChessGameEngine object
      */
     public ChessGameEngine getGameEngine(){
         return gameEngine;
@@ -69,7 +71,7 @@ public class ChessPanel
      * 
      * @param whichPlayer
      *            the number of the player (1 or 2)
-     * @return ChessGraveyard the graveyard requested
+     * @return paquete.ChessGraveyard the graveyard requested
      */
     public ChessGraveyard getGraveyard( int whichPlayer ){
         if ( whichPlayer == 1 ){
